@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Green Basket Natural Foods – Demo Website</title>
+<meta name="description" content="Demo website concept for a local natural foods store: fresh dairy, wholesome everyday foods and simple ingredients.">
+<meta name="robots" content="noindex, nofollow">
+<style>
+:root{--g:#2f6b3f;--gd:#1f4a2b;--gl:#eaf4e4;--cream:#fbf8f0;--earth:#b8793a;--ink:#26332a;--mut:#5d6b61}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+.demo{background:#26332a;color:#fff;text-align:center;font-size:.82rem;padding:.5rem 1rem}
+header{position:sticky;top:0;background:rgba(251,248,240,.95);backdrop-filter:blur(6px);border-bottom:1px solid #e6e0d0;z-index:10}
+.nav{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:.8rem 1.2rem}
+.logo{font-weight:800;color:var(--gd);font-size:1.15rem}.logo span{color:var(--earth)}
+nav a{color:var(--ink);text-decoration:none;margin-left:1.1rem;font-size:.95rem}
+@media(max-width:640px){nav a:not(.btn){display:none}}
+.btn{display:inline-block;background:var(--g);color:#fff!important;padding:.8rem 1.5rem;border-radius:999px;text-decoration:none;font-weight:700;border:0;cursor:pointer}
+.btn:hover{background:var(--gd)}.btn.alt{background:#fff;color:var(--gd)!important;border:2px solid var(--g)}
+.hero{background:linear-gradient(160deg,var(--gl),#fff7e0);padding:3.5rem 1.2rem 4rem;text-align:center}
+.hero h1{font-size:clamp(2rem,6vw,3.4rem);color:var(--gd);line-height:1.15;max-width:760px;margin:0 auto 1rem}
+.hero p{max-width:600px;margin:0 auto 1.6rem;color:var(--mut);font-size:1.1rem}
+.hero .cta{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap}
+.pills{display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap;margin-top:1.8rem}
+.pills span{background:#fff;border:1px solid #d8e6cf;border-radius:999px;padding:.35rem .9rem;font-size:.88rem;color:var(--gd)}
+section{padding:3.5rem 1.2rem}.wrap{max-width:1100px;margin:auto}
+h2{font-size:clamp(1.6rem,4vw,2.2rem);color:var(--gd);margin-bottom:.5rem}
+.sub{color:var(--mut);max-width:640px;margin-bottom:2rem}
+.grid{display:grid;gap:1.1rem;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:#fff;border-radius:18px;padding:1.4rem;border:1px solid #ece6d6;box-shadow:0 2px 10px rgba(40,60,40,.05)}
+.card .ic{font-size:2rem;margin-bottom:.4rem}.card h3{color:var(--gd);margin-bottom:.3rem;font-size:1.1rem}.card p{color:var(--mut);font-size:.95rem}
+.alt-bg{background:#fff}.green{background:var(--gd);color:#fff}.green h2{color:#fff}.green .sub{color:#cfe3cf}
+.green .card{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.15);box-shadow:none}.green .card h3{color:#fff}.green .card p{color:#d6e7d6}
+.nutri{background:var(--gl);border-radius:18px;padding:1.4rem;margin-top:1.6rem}
+.nutri table{width:100%;border-collapse:collapse;font-size:.95rem}.nutri td,.nutri th{padding:.4rem .2rem;border-bottom:1px solid #cfdfc6;text-align:left}.nutri td:last-child,.nutri th:last-child{text-align:right}
+.tag{display:inline-block;font-size:.75rem;background:var(--gl);color:var(--gd);border-radius:6px;padding:.1rem .5rem;margin:.15rem .15rem 0 0}
+.price{font-weight:800;color:var(--earth)}
+.note{font-size:.85rem;color:var(--mut);margin-top:1rem}
+.placeholder{background:#fff4d6;border:1px dashed #d9a83a;border-radius:6px;padding:0 .35rem}
+.contact{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.disc{background:#f1ede0;font-size:.82rem;color:var(--mut);padding:1.2rem}
+footer{background:#18241c;color:#a9b8ac;text-align:center;padding:1.6rem 1rem;font-size:.85rem}
+.wa{position:fixed;right:16px;bottom:16px;background:#25d366;color:#fff;border-radius:999px;padding:.8rem 1.2rem;font-weight:700;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.25);z-index:20}
+</style>
+</head>
+<body>
+<div class="demo">DEMO WEBSITE – a concept preview. Shop name, contact details and offers are placeholders.</div>
+<header><div class="nav"><div class="logo">Green Basket <span>Natural Foods</span></div>
+<nav><a href="#benefits">Benefits</a><a href="#natural">Naturally made</a><a href="#products">Products</a><a href="#visit">Visit us</a><a class="btn" href="https://wa.me/27000000000?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20products">WhatsApp</a></nav></div></header>
+
+<div class="hero">
+<h1>Simple, wholesome food for your everyday table</h1>
+<p>Fresh dairy and good food made with short ingredient lists. Come in, taste the difference and bring something wholesome home.</p>
+<div class="cta"><a class="btn" href="https://wa.me/27000000000?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20products">Chat on WhatsApp</a><a class="btn alt" href="#visit">Visit the store</a></div>
+<div class="pills"><span>🥛 Fresh dairy</span><span>🌿 Simple ingredients</span><span>🇿🇦 Made in South Africa</span><span>❄️ Kept cold &amp; fresh</span></div>
+</div>
+
+<section id="benefits"><div class="wrap">
+<h2>Good for everyday wellbeing</h2>
+<p class="sub">Wholesome foods can be part of a balanced diet. Here is why customers love our Greek-style yoghurt range.</p>
+<div class="grid">
+<div class="card"><div class="ic">💪</div><h3>A source of protein</h3><p>Our full-cream Greek-style yoghurt lists 4g of protein per 100g on the label, and the strained style is higher at 10g per 100g.</p></div>
+<div class="card"><div class="ic">🦴</div><h3>Contains calcium</h3><p>Dairy is a well-known source of calcium, which is part of a normal, balanced diet. The label shows 120mg per 100g.</p></div>
+<div class="card"><div class="ic">🦠</div><h3>Active cultures</h3><p>Made with live, active yoghurt cultures, the traditional way yoghurt has been enjoyed for generations.</p></div>
+<div class="card"><div class="ic">🍽️</div><h3>Satisfying &amp; versatile</h3><p>Rich and creamy. Enjoy it with fruit, honey and nuts, in dips and dressings, or as a cooling side with spicy meals.</p></div>
+</div></div></section>
+
+<section id="natural" class="green"><div class="wrap">
+<h2>Naturally made, nothing hidden</h2>
+<p class="sub">We believe in food you can understand. The yoghurt on our shelves has a short ingredient list: pasteurised cow's milk and active cultures.</p>
+<div class="grid">
+<div class="card"><div class="ic">🚫</div><h3>No preservatives</h3><p>Stated on the pack.</p></div>
+<div class="card"><div class="ic">🍬</div><h3>No artificial sweeteners</h3><p>Or artificial flavourings. Stated on the pack.</p></div>
+<div class="card"><div class="ic">🌾</div><h3>No cane sugar, no gelatine</h3><p>Just creamy, simple dairy.</p></div>
+<div class="card"><div class="ic">🐄</div><h3>Pasteurised cow's milk</h3><p>The one and only ingredient listed apart from cultures.</p></div>
+</div>
+<p class="note" style="color:#cfe3cf">Organic and certified-natural ranges: <span class="placeholder" style="color:#26332a">Owner to confirm which products carry organic certification and add certificate details here.</span></p>
+</div></section>
+
+<section id="products" class="alt-bg"><div class="wrap">
+<h2>What's on our shelves</h2>
+<p class="sub">A taste of the range. Your shop's full product list can be added by category.</p>
+<div class="grid">
+<div class="card"><div class="ic">🥣</div><h3>Greek-style yoghurt, classic</h3><p>Full cream with active cultures. 500g and 1kg tubs.</p><p class="price">500g from R34.99 · 1kg R56.99</p><span class="tag">Full cream</span><span class="tag">Active cultures</span></div>
+<div class="card"><div class="ic">🥄</div><h3>Strained Greek yoghurt (Sakoulas)</h3><p>Thick, strained and extra protein-rich: 10g protein per 100g on the label. 500g tub.</p><p class="price">500g R54.99</p><span class="tag">Strained</span><span class="tag">High protein</span></div>
+<div class="card"><div class="ic">🧀</div><h3>More dairy</h3><p>Milk, cheese, butter and more.</p><span class="tag placeholder">add products</span></div>
+<div class="card"><div class="ic">🥜</div><h3>Nuts, seeds &amp; grains</h3><p>Pantry staples for healthy snacking and baking.</p><span class="tag placeholder">add products</span></div>
+<div class="card"><div class="ic">🍯</div><h3>Honey, spreads &amp; sauces</h3><p>Natural sweetness and flavour for the table.</p><span class="tag placeholder">add products</span></div>
+<div class="card"><div class="ic">🥬</div><h3>Fresh &amp; everyday foods</h3><p>Fruit, veg and wholesome basics.</p><span class="tag placeholder">add products</span></div>
+</div>
+<div class="nutri"><strong>Classic Greek-style yoghurt, full cream: per 100g (from the label)</strong>
+<table><tr><th>Nutrient</th><th>Amount</th></tr><tr><td>Energy</td><td>250 kJ / 60 kcal</td></tr><tr><td>Protein</td><td>4.0 g</td></tr><tr><td>Fat</td><td>3.0 g</td></tr><tr><td>Carbohydrates</td><td>4.0 g</td></tr><tr><td>Calcium</td><td>120 mg</td></tr></table></div>
+<p class="note">Product shown is the Olymbos range, packed in South Africa. Prices as seen on the shelf and may change. Brands and ranges here are examples for the demo.</p>
+</div></section>
+
+<section id="visit"><div class="wrap">
+<h2>Come and visit us</h2>
+<p class="sub">Drop in, ask us anything and take home something wholesome today.</p>
+<div class="contact">
+<div class="card"><h3>📍 Find us</h3><p><span class="placeholder">Shop address, suburb, city</span></p><h3 style="margin-top:1rem">🕒 Opening hours</h3><p><span class="placeholder">Mon–Sat 8:00–18:00 · Sun 9:00–14:00</span></p></div>
+<div class="card"><h3>💬 Get in touch</h3><p>WhatsApp: <span class="placeholder">+27 00 000 0000</span></p><p>Email: <span class="placeholder">hello@yourshop.co.za</span></p><p style="margin-top:1rem"><a class="btn" href="https://wa.me/27000000000?text=Hi%2C%20I%27d%20like%20to%20visit%20your%20store">Message us on WhatsApp</a></p></div>
+</div></div></section>
+
+<div class="disc"><div class="wrap"><strong>Disclaimer:</strong> This is a demo concept website. Information on this page is general in nature and is not medical advice. Our foods are not intended to diagnose, treat, cure or prevent any condition. Please check the label for ingredients and allergens (our yoghurt contains milk). If you have a health concern or special dietary need, speak to a healthcare professional.</div></div>
+
+<footer>© Your Shop Name (demo) · Demo by CocoCorp</footer>
+<a class="wa" href="https://wa.me/27000000000?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20products">💬 WhatsApp us</a>
+</body>
+</html>
